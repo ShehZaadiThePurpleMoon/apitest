@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our User</title>
+    <style>
+        #users{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            overflow: hidden;
+        }
+
+
+        .user{
+            list-style: none;
+            padding: 20px;
+           margin: 15px;
+           background: rgba(90, 233, 104, 0.325);
+           border-radius: 5px;
+           border: 2px solid rgb(2, 128, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Show All User</h1>
+    <div id="users"></div>
+
+    <script src="user.js"></script>
+    
+</body>
+</html>
